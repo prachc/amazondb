@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>amazondb1</servlet-name>
+    <servlet-class>AmazonDB1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>amazondb1</servlet-name>
+    <url-pattern>/amazondb1/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>amazondb2</servlet-name>
+    <servlet-class>AmazonDB2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>amazondb2</servlet-name>
+    <url-pattern>/amazondb2/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>amazondb3</servlet-name>
+    <servlet-class>AmazonDB3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>amazondb3</servlet-name>
+    <url-pattern>/amazondb3/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>amazondb4</servlet-name>
+    <servlet-class>AmazonDB4</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>amazondb4</servlet-name>
+    <url-pattern>/amazondb4/*</url-pattern>
+  </servlet-mapping>
+</web-app>
